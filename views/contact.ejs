@@ -1,0 +1,48 @@
+<!--File Name:contact.ejs
+    Name: Prajwal
+    Student ID 301243308
+    Date 2 October 2022-->
+
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<html>
+<head></head>
+<body>
+<div class="container" style="padding-top: 20px;">
+<h2>Contact Me</h2>
+<div id="panel" class="panel panel-default" style="border: 2px black; ">
+<div class="panel-body">
+<h6>Contact number: (456)-456-4435</h6>
+<h6>Email: ppurohi9@my.centennialcollege.ca</h6>
+<h6>Instagram: prajwalpurohit24</h6>
+<h6>Twitter: prajwalpurohit24</h6>
+</div>
+</div>
+</div>
+
+
+<form style="position: absolute; top: 400px; width: 400px; height: 600px; left: 100px">
+	<fieldset>
+    <legend>Contact Form</legend>
+    <label for="name">First Name:</label><br /> 
+	<input name="name" type="text" placeholder="Prajwal" /> <br /> 
+    <label for="name">Last Name:</label><br />
+	<input name="name" type="text" placeholder="Purohit" /> <br /> 
+    <label for="name">Contact Number:</label><br /> 
+	<input name="name" type="text" placeholder="(XXX)-XXX-XXXX" /> <br /> 
+    <label for="name">Email address:</label><br /> 
+	<input name="name" type="text" placeholder="xyz@gmail.com" /> <br /> 
+	<textarea cols="30" rows="2" placeholder="Additional Information"></textarea><br />  
+	</fieldset>
+    </form>
+    <a style="position: absolute; top: 720px; left: 100px" href = "http://localhost:3000/">
+    <button>Submit</button>
+    </a>
+
+</body>
+</html>
+
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
